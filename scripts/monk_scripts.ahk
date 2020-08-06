@@ -1,15 +1,19 @@
 #SingleInstance Force
 #Include ../Utils.ahk
 
-^+2::Pause  ; Press Shift+Alt+3 to pause. Press it again to resume.
+; Pause script
+; > Press Shift+Ctrl+X to pause. Press it again to resume.
+^+X::Pause 
 
-^+1:: ; Press Shift+Alt+1 to run.
+; Assist. 
+; > Press Shift+Ctrl+1 to run.
+^+1::
 	SetCapsLockState, off
-	assistG()
+	startAssist()
 
-assistG() {
+startAssist() {
 	Loop {
-		assistGregori()
-		; assistZabashu()
+		assist() ; located in Utils.ahk, modify char name
+		;followAndAssist() ; located in Utils.ahk, modify char name
 	}
 }

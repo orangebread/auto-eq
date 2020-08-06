@@ -1,8 +1,12 @@
 #SingleInstance Force
 #Include ../Utils.ahk
 
-^+2::Pause  ; Press Ctrl+Alt+P to pause. Press it again to resume.
+; Pause script
+; > Press Shift+Ctrl+X to pause. Press it again to resume.
+^+X::Pause 
 
+; Infinite Cannibalize. 
+; > Press Shift+Ctrl+1 to run.
 ^+1::
 	SetCapsLockState, off
 	canniDance()

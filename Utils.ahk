@@ -8,22 +8,18 @@ attackOn() {
 	sendKeys("/attack on", 0)
 }
 
-assist() {
-	group("Assisting [ %t ]")
-	sendKeys("/as", 2)
-}
-
 meleeAssist() {
 	group("Assisting [ %t ]")
 	sendKeys("/as", 6)
 }
 
-assistGregori() {
-	sendKeys("/assist gregori", 6)
+assist() {
+	sendKeys("/assist gregori", 6) ; assist every 6 seconds
 }
 
-assistZabashu() {
-	sendKeys("/assist zabashu", 6)
+followAndAssist() {
+	sendKeys("0", 5.5) ; I created a follow macro for 0 on hotbar
+	sendKeys("/assist gregori", 6) ; assist every 6 seconds
 }
 
 

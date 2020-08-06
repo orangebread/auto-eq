@@ -21,11 +21,16 @@ In the auto-eq directory, navigate to the **scripts** folder and just double cli
 If you want to see what each script executes, right click on the script and open it in a text editor like Notepad. **NOTE: You will need to modify the character names in the scripts for some of these to perform correctly**
 
 ### Monk
+`Shift+ Ctrl + S` - Stop/pause script. Press again to resume script.
+
 `Shift + Ctrl + 1` - Auto assist the target defined in the script
 
-`Shift+ Ctrl + 2` - Pause script. Press again to resume script.
-
 ### Shaman
+`Shift+ Ctrl + S` - Stop/pause script. Press again to resume script.
+
 `Shift + Ctrl + 1` - Infinite Cannibalize (I fucking love this one)
 
-`Shift + Ctrl + 2` - Pause script. Press again to resume script.
+## References
+https://www.autohotkey.com/docs/Tutorial.htm
+
+You can use AutoHotkey's documentation to modify any of this as you see fit. 
