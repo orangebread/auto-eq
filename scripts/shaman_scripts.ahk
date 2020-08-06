@@ -1,5 +1,5 @@
 #SingleInstance Force
-#Include ../../Utils.ahk
+#Include ../Utils.ahk
 
 ^+2::Pause  ; Press Ctrl+Alt+P to pause. Press it again to resume.
 

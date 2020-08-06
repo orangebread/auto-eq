@@ -1,4 +1,4 @@
-#Include ../../Utils.ahk
+#Include ../Utils.ahk
 ^!3::
 
 dragCorpse() {
