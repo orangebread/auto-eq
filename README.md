@@ -16,7 +16,7 @@ This is still a work in progress and has very basic functionality right now
 
 ## How to use
 
-In the auto-eq directory, navigate to the **scripts** folder and just double click on the the script you wish to run. 
+**Double click the desired script** in the auto-eq directory located in the *scripts* folder.
 
 If you want to see what each script executes, right click on the script and open it in a text editor like Notepad. **NOTE: You will need to modify the character names in the scripts for some of these to perform correctly**
 
