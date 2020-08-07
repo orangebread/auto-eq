@@ -5,17 +5,17 @@
 ; > Press Shift+Ctrl+X to pause. Press it again to resume.
 ^+X::Pause 
 
-; Assist. 
+; Assist.
 ; > Press Shift+Ctrl+1 to run.
 ^+1:: 
 	SetCapsLockState, off
 	startAssist()
 
-; Clicks Symphony of Battle and continues melody. 
+; Clicks Symphony of Battle and continues melody.
 ; > Press Shift+Ctrl+2 to run.
 ^+2:: 
 	SetCapsLockState, off
-	symphony()
+	symphonyAndAssist()
 
 startAssist() {
 	Loop {
@@ -24,11 +24,16 @@ startAssist() {
 	}
 }
 
-symphony() {
+symphonyAndAssist() {
     Loop {
-        sendKeys("/useitem Songblade of the Eternal", 4)
+        count = 0
+        sendKeys("/useitem Songblade of the Eternal", 8)
         Send {2} ; Selects melody macro on hotbar
-
-        Sleep 850 * 1000
+        Sleep 75
+        while (count < 14) {
+            assist()
+            count := count + 1
+            Sleep 6000
+        }
     }
 }
