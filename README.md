@@ -14,9 +14,11 @@ This is still a work in progress and has very basic functionality right now
    3. In the bash terminal that opened, type in `git clone https://github.com/orangebread/auto-eq.git` ![git clone](https://i.imgur.com/zQ6og5a.png)
    4. Aaaand ya done! You should have something similar to this ![fuck your face](https://i.imgur.com/EzJ3H1l.png)
 
+4. **IMPORTANT:** Once in awhile you will want to open up the bash terminal and type in `git pull` in the bash terminal to update the scripts.
+
 ## How to use
 
-**Double click the desired script** in the auto-eq directory located in the *scripts* folder.
+**Double click the desired script** in the auto-eq directory located in the *scripts* folder (ex. monk_scripts.ahk).
 
 If you want to see what each script executes, right click on the script and open it in a text editor like Notepad. **NOTE: You will need to modify the character names in the scripts for some of these to perform correctly**
 
