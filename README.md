@@ -1,5 +1,7 @@
 # Auto-EQ
 
+A collection of Everquest scripts to automate some tasks. The scripts leverage AutoHotkey which sends keyboard commands to the Everquest client.
+
 This is still a work in progress and has very basic functionality right now
 
 ## Setup
