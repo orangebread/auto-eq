@@ -3,7 +3,7 @@
 
 ; Pause
 ; > Press Shift+Ctrl+X to pause. Press it again to resume.
-^+X::Pause 
+^+X::Pause
 
 ; Assist.
 ; > Press Shift+Ctrl+1 to run.
@@ -27,9 +27,9 @@ startAssist() {
 symphonyAndAssist() {
     Loop {
         count = 0
-        sendKeys("/useitem Songblade of the Eternal", 10)
+        sendKeys("/useitem Songblade of the Eternal", 9)
         Sleep 75
-        Send {2} ; Selects melody macro on hotbar
+        Send {3} ; Selects melody macro on hotbar
         Sleep 75
         while (count < 14) {
             assist()
