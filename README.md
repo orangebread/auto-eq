@@ -20,18 +20,20 @@ This is still a work in progress and has very basic functionality right now
 
 If you want to see what each script executes, right click on the script and open it in a text editor like Notepad. **NOTE: You will need to modify the character names in the scripts for some of these to perform correctly**
 
+### General
+`Shift + Ctrl + X` - Stop/pause script. Press again to resume script. Works across all scripts.
+
 ### Monk
-`Shift + Ctrl + X` - Stop/pause script. Press again to resume script.
 
 `Shift + Ctrl + 1` - Auto assist the target defined in the script
 
 ### Shaman
-`Shift+ Ctrl + X` - Stop/pause script. Press again to resume script.
 
 `Shift + Ctrl + 1` - Infinite Cannibalize (I fucking love this one)
 
+`Shift + Ctrl + 2` - Auto Avatar. Will automatically cycle through a list you've defined and buff each person as Ferine Avatar comes off cooldown. Spell gem for Ferine Avatar should be in Slot 1. Caster will provide a 15 second warning to cast so remain still.
+
 ### Bard
-`Shift + Ctrl + X` - Stop/pause script. Press again to resume script.
 
 `Shift + Ctrl + 1` - Auto assist the target defined in the script
 
