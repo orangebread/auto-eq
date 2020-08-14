@@ -27,7 +27,8 @@ startAssist() {
 symphonyAndAssist() {
     Loop {
         count = 0
-        sendKeys("/useitem Songblade of the Eternal", 8)
+        sendKeys("/useitem Songblade of the Eternal", 10)
+        Sleep 75
         Send {2} ; Selects melody macro on hotbar
         Sleep 75
         while (count < 14) {
