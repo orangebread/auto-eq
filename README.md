@@ -41,7 +41,7 @@ If you want to see what each script executes, right click on the script and open
 
 `Shift + Ctrl + 1` - _Auto Assist_ the target defined in the script
 
-`Shift + Ctrl + 2` - _Symphony of the Battle + Auto Assist + Melody_ (Assuming you have the item required -- ex. Songblade of the Eternal) and resumes melodies and auto assist.
+`Shift + Ctrl + 2` - _Symphony of the Battle + Auto Assist + Melody_ (Assuming you have the item required -- ex. Songblade of the Eternal) and resumes melodies and auto assist. **NOTE:** You will need to have your desired melody on _**hotkey 3**_
 
 ## References
 https://www.autohotkey.com/docs/Tutorial.htm
