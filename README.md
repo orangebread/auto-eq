@@ -21,23 +21,23 @@ This is still a work in progress and has very basic functionality right now
 If you want to see what each script executes, right click on the script and open it in a text editor like Notepad. **NOTE: You will need to modify the character names in the scripts for some of these to perform correctly**
 
 ### General
-`Shift + Ctrl + X` - Stop/pause script. Press again to resume script. Works across all scripts.
+`Shift + Ctrl + X` - _Stop/pause script._ Press again to resume script. Works across all scripts.
 
 ### Monk
 
-`Shift + Ctrl + 1` - Auto assist the target defined in the script
+`Shift + Ctrl + 1` - _Auto Assist_ the target defined in the script
 
 ### Shaman
 
-`Shift + Ctrl + 1` - Infinite Cannibalize (I fucking love this one)
+`Shift + Ctrl + 1` - _Infinite Cannibalize_ (I fucking love this one)
 
-`Shift + Ctrl + 2` - Auto Avatar. Will automatically cycle through a list you've defined and buff each person as Ferine Avatar comes off cooldown. Spell gem for Ferine Avatar should be in Slot 1. Caster will provide a 15 second warning to cast so remain still.
+`Shift + Ctrl + 2` - _Auto Avatar._ Will automatically cycle through a list you've defined and buff each person as Ferine Avatar comes off cooldown. Spell gem for Ferine Avatar should be in Slot 1. Caster will provide a 15 second warning to cast so remain still.
 
 ### Bard
 
-`Shift + Ctrl + 1` - Auto assist the target defined in the script
+`Shift + Ctrl + 1` - _Auto Assist_ the target defined in the script
 
-`Shift + Ctrl + 2` - Casts Symphony of the Battle (Assuming you have the item required -- ex. Songblade of the Eternal) and resumes melodies.
+`Shift + Ctrl + 2` - _Symphony of the Battle + Auto Assist + Melody_ (Assuming you have the item required -- ex. Songblade of the Eternal) and resumes melodies and auto assist.
 
 ## References
 https://www.autohotkey.com/docs/Tutorial.htm
