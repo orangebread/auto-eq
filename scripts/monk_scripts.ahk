@@ -5,6 +5,10 @@
 ; > Press Shift+Ctrl+X to pause. Press it again to resume.
 ^+X::Pause 
 
+; Reload script
+; > Press Shift+Ctrl+R to reload script. 
+^+R::Reload
+
 ; Assist. 
 ; > Press Shift+Ctrl+1 to run.
 ^+1::
