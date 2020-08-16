@@ -29,7 +29,7 @@ canniDance() {
 }
 
 autoAvatar() {
-	heros := ["gregori", "feaver", "tuktrah", "lanier", "thunderfist", "caber", "omnislash", "axinux" ] ; NOTE - modify user list here - MAX OF 10
+	heros := ["hanz", "atheenaa", "zabashu", "quintious", "stefs", "gregori"] ; NOTE - modify user list here - MAX OF 10
 	herosCount := NumGet(&heros + 4*A_PtrSize)
 	cycle := 0
 	; cycles := Floor(10 / herosCount)
