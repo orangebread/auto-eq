@@ -14,12 +14,12 @@ meleeAssist() {
 }
 
 assist() {
-	sendKeys("/assist gregori", 6) ; assist every 6 seconds
+	sendKeys("/assist cheettah", 6) ; assist every 6 seconds
 }
 
 followAndAssist() {
 	sendKeys("0", 5.5) ; I created a follow macro for 0 on hotbar
-	sendKeys("/assist gregori", 6) ; assist every 6 seconds
+	sendKeys("/assist cheettah", 6) ; assist every 6 seconds
 }
 
 

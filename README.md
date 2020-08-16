@@ -27,6 +27,8 @@ If you want to see what each script executes, right click on the script and open
 ### General
 `Shift + Ctrl + X` - _Stop/pause script._ Press again to resume script. Works across all scripts.
 
+`Shift + Ctrl + R` - _Reload script._ Will reset the script as if you just opened it. Good if the scripts glitch.
+
 ### Monk
 
 `Shift + Ctrl + 1` - _Auto Assist_ the target defined in the script
